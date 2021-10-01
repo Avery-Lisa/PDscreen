@@ -21,3 +21,7 @@ Step 1. Import & wrangle the data
 - recode missing values to zero
 - match with the clinical data, identify the technical replicates and recode any missing values to 0
 - document all manipulations to a log file. 
+
+# Package Development Goals:
+
+- write a function, with documentation to import the sampleInformation.csv data. This is just practice function writing so take as an argument the filename and output the number of unique IDS.
