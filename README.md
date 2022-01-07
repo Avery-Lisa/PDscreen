@@ -1,4 +1,8 @@
 # PDscreen
+
+8 October improved the import function
+HI
+
 package to import data from Proteome Discoverer, screen and identify proteins of interest
 
 1 October 2021 package initialised
@@ -25,3 +29,5 @@ Step 1. Import & wrangle the data
 # Package Development Goals:
 
 - write a function, with documentation to import the sampleInformation.csv data. This is just practice function writing so take as an argument the filename and output the number of unique IDS.
+
+# Silly Test Check
