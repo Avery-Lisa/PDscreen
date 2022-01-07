@@ -12,6 +12,8 @@ library(BlandAltmanLeh)
 library(ggExtra)
 library(plyr)
 
+# A little changed comment
+
 #'Proteome Discoverer Import
 #'
 #'A function to import the Excel ProteomeDiscoverer file and extract the protein intensities
