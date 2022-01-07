@@ -2,7 +2,8 @@
 
 # Next Steps
 
-7 Jan 2022:  
+7 Jan 2022: 
+Look at the difference between reliability if proteins with Area=0 are treated as 0 vs if they are treated as missing (NA)
 
 Look for candidate biomarkers with the following tests:
 - t-tests
