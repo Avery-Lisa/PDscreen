@@ -1,2 +1,4 @@
 ^PDscreen\.Rproj$
 ^\.Rproj\.user$
+^docs$
+^data$
