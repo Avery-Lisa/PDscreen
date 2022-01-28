@@ -2,6 +2,21 @@
 
 # Next Steps
 
+28 Jan
+To write up a description for (with some individual protein plots):
+  - the effect of applying a log transform to the values
+  - looking at reliability with and without log transform
+  - looking at between group differences with and without log transform
+
+21 Jan 2022
+  -t-tests / wilcoxon rank sum with and without log transform
+  - function to compute statistical tests for each protein
+  - logistic regression
+
+Going back to the reliability:
+
+
+
 7 Jan 2022: 
 Look at the difference between reliability if proteins with Area=0 are treated as 0 vs if they are treated as missing (NA)
 

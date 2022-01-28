@@ -34,9 +34,9 @@ importData <- function(excelFile){
 ## Step 1. Import & wrangle the data
 
 # Import the excel data
-PDO<-importData("ProteomeDiscovererOutput.xlsx")
-Name_Abb<-importData("Protein name and abbreviations.xlsx")
-Sample_info<-importData("sampleInformation.xlsx")
+PDO<-importData("data/ProteomeDiscovererOutput.xlsx")
+Name_Abb<-importData("data/Protein name and abbreviations.xlsx")
+Sample_info<-importData("data/sampleInformation.csv")
 
 # Wrangle the data
 
@@ -73,12 +73,10 @@ NumberOfAccessionsPerProtein <- PDO %>%
 # extract all area column
 area_cols <- grep('Area',names(PDO),value=T)
 
-
-
 UniqueProteins <-
   PDO %>%
-  group_by(Protein)  %>%
-  summarise(
+  dplyr::group_by(Protein)  %>%
+  dplyr::summarise(
     FirstAccession = Accession[1]
   )
 
